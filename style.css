@@ -1,21 +1,39 @@
 header{
     background: rgb(241, 194, 202);
+    padding: 50px 0;
 }
-.caixa{
-    position: relative;
-}
+.font-header{
+    font-size: 40px;
+    margin-left: 50px;
 
+}
 nav{
     position: absolute;
-    top: 0;
-    right: 50px;
+    top:0px;
+    right:20px;
 }
-
 .navegacao li{
     display: inline-block;
     margin: 0 0 0 15px;
+}
+.navegacao a{
     font-size: 20px;
     font-weight: bold;
-    background: pink;
+    text-decoration: none;
+    color: black;
+}
 
+.produtos li{
+    display: inline-block;
+    margin: 15px;
+    padding: 0;
+}
+.nome-produto{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.produtos img{
+    width: 65%;
 }
