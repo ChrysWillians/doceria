@@ -5,7 +5,7 @@ header{
 .caixa{
     position: relative;
     width: 940px;
-    margin-left: auto;
+    margin-left: 135px;
     margin-right: auto;
 }
 .font-header{
@@ -30,16 +30,17 @@ nav{
     width: 100%;
 }
     
-
-
-
 .produtos li{
     display: inline-block;
-    margin: 15px;
-    padding: 0;
+    text-align: center;
+    width: 27%;
+    margin-left: 60px;
+
+    padding: 30px 20px;
+    box-sizing: border-box;
 }
 .nome-produto{
-    text-align: justify;
+    text-align: center;
     font-size: 20px;
     font-weight: bold;
 }
