@@ -1,27 +1,37 @@
 header{
-    background: rgb(241, 194, 202);
-    padding: 50px 0;
+    background: rgb(253, 193, 230);
+    padding: 20px 0;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .font-header{
-    font-size: 40px;
-    margin-left: 50px;
+    font-size: 50px;
 
 }
 nav{
-    position: absolute;
-    top:0px;
-    right:20px;
+    position: relative;
+    top: 0px;
+    right: 0px;
 }
+
 .navegacao li{
     display: inline-block;
-    margin: 0 0 0 15px;
+    vertical-align: top;
+    width: 5%;
+    padding: 5px; 
+    box-sizing: border-box;
 }
-.navegacao a{
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
+
+.navegacao img{
+    width: 100%;
 }
+    
+
+
 
 .produtos li{
     display: inline-block;
